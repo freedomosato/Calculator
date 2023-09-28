@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="main-div">
+    <div class="row">
+      <p class="input" id="result"></p>
+    </div>
+    <div class="row">
+      <button class="operator" onclick="del('Del')">Del</button>
+      <button class="operator" onclick="clr('Cls')">Clr</button>
+      <button class="operator" onclick="equal('=')">=</button>
+      <button class="operator" onclick="percent('%')">%</button>
+    </div>
+    <div class="row">
+      <button onclick="calculate(1)">1</button>
+      <button onclick="calculate(2)">2</button>
+      <button onclick="calculate(3)">3</button>
+      <button class="operator" onclick="calculate('+')">+</button>
+    </div>
+    <div class="row">
+      <button onclick="calculate(4)">4</button>
+      <button onclick="calculate(5)">5</button>
+      <button onclick="calculate(6)">6</button>
+      <button class="operator" onclick="calculate('-')">-</button>
+    </div>
+    <div class="row">
+      <button onclick="calculate(7)">7</button>
+      <button onclick="calculate(8)">8</button>
+      <button onclick="calculate(9)">9</button>
+      <button class="operator" onclick="calculate('*')">x</button>
+    </div>
+    <div class="row">
+      <button onclick="calculate(0)">0</button>
+      <button onclick="calculate('00')">00</button>
+      <button onclick="calculate('.')">.</button>
+      <button class="operator" onclick="calculate('/')">/</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
