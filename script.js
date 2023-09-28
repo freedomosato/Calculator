@@ -12,9 +12,11 @@ function equal(){
     
   }
 }
+
 function clr(){
   resultEl.innerHTML = ""
 }
+
 function del(){
   resultEl.innerHTML = resultEl.innerHTML.slice(0, -1)
 }
