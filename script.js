@@ -5,7 +5,7 @@ function calculate(number){
 }
 function equal(){
   try{
-      resultEl.innerHTML = eval(result.innerHTML)
+      resultEl.innerHTML = eval(resultEl.innerHTML)
   }
   catch(err){
     alert("invalid input")
@@ -22,5 +22,5 @@ function del(){
 }
 
 function percent(){
-  resultEl.innerHTML = eval(result.innerHTML/100)
+  resultEl.innerHTML = eval(resultEl.innerHTML/100)
 }
