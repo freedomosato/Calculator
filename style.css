@@ -4,20 +4,19 @@
   box-sizing: border-box;
 }
 body{
-  background-color: lightgray;
+  background-color: #d3d3d3;
   width: 100%;
   height: 100%;
-  margin: 8% auto;
 }
 body .main-div{
   width: 250px;
   height: 350px;
-  margin: 0 auto;
+  margin: 8% auto;
   padding: 10px;
   border: 1px solid;
   border-radius: 5px;
-  box-shadow: 0 2px 2px black,
-              0 -2px 2px black,
+  box-shadow: 0 2px 2px #000,
+              0 -2px 2px #000,
               0 2px 2px brown,
               0 -2px 2px brown;
 }
@@ -25,15 +24,15 @@ body .main-div .row p{
   width: 100%;
   height: 30px;
   outline: none;
-  border: 1px solid black;
+  border: 1px solid #000;
   border-radius: 3px;
   margin-bottom: 5px;
   text-align: right;
   font-size: 20px;
-  color: red;
+  color: #ff0000;
   padding: 0 8px;
   font-weight: 900;
-  box-shadow: 0 -2px 2px black;
+  box-shadow: 0 -2px 2px #000;
 }
 body .main-div .row button{
   width: 50px;
@@ -43,8 +42,8 @@ body .main-div .row button{
   margin: 5px 2px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 2px 2px black,
-              0 -2px 2px black,
+  box-shadow: 0 2px 2px #000,
+              0 -2px 2px #000,
               0 2px 2px red,
               0 -2px 2px red;
   
@@ -53,5 +52,5 @@ body .main-div .row button:hover{
   background-color: #50f7ec;
 }
 .operator{
-  background-color: gray;
+  background-color: #808080;
 }
